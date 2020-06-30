@@ -31,7 +31,7 @@ collections:
 
   - name: "blog"
     label: "Blog"
-    folder: "content/blogs"
+    folder: "content/blog"
     create: true
     slug: "{{slug}}"
     fields:
