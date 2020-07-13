@@ -5,6 +5,7 @@
             class="arrow">←</span>{{ with .Site.Params.home }}{{ . }}{{ else }}Home{{ end }}</a>
     {{ end }}
     <a href='{{ .Site.BaseURL }}about'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
+    <a href='{{ .Site.BaseURL }}tags'>{{ with .Site.Params.tags }}{{ . }}{{ else }}Tags{{ end }}</a>
     <a href='{{ .Site.BaseURL }}posts'>{{ with .Site.Params.post }}{{ . }}{{ else }}Posts{{ end }}</a>
 
 

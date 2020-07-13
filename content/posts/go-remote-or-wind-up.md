@@ -5,6 +5,7 @@ tags:
 - remote-work
 - going-remote
 title: Go Remote or Wind up!
+description: "For every single organization looking to hire for the best employees out there, here's just 2 words: Go Remote!"
 ---
 
 The whole #covid19 pandemic is an amazing opportunity to gear up for the next level.

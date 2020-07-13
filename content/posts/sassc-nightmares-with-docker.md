@@ -1,13 +1,9 @@
----
-date: "2020-02-04T00:00:00Z"
-tags:
-- docker
-- rails
-- sassc
-- rubygems
-- fargate
-title: Sassc nightmares with Docker
----
++++
+date = "2020-02-04T00:00:00Z"
+tags = ["docker", "rails", "sassc", "rubygems", "fargate"]
+title = "Sassc nightmares with Docker"
+toc = false
++++
 We run our infra on AWS Fargate. This means docker images. Our docker image is 
 based on debian buster packaged with Ruby 2.6.5.
 

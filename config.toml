@@ -8,6 +8,9 @@ googleAnalytics = ""
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = false
 
+[permalinks]
+posts = "/post/:title/"
+
 [params]
 author = "Ashwin M"
 bio = "Setting servers on fire for over a decade now!"
@@ -16,7 +19,7 @@ description = "DevOps, Infra and Cloud Expert"
 twitter = "cruisemaniac"
 
 enableRSS = true
-enableToc = true
+enableToc = false
 
 disqusShortname = "" #disqus shortname here
 enableDisqus = false 
@@ -43,7 +46,7 @@ about = ""
 home = ""
 # now = ""
 post = ""
-subscribe = ""
+subscribe = "RSS"
 tags = ""
 
 copyright = ""
@@ -56,8 +59,8 @@ readMore = ""
 showLatestPosts = false
 # Share
 enableShare = true
-share = ""
-tweet = ""
+share = "Facebook"
+tweet = "Twitter"
 
 # 404 page
 subtitle404 = "You entered the wrong room my friend! Go back ?"

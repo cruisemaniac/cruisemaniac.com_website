@@ -5,6 +5,7 @@ tags:
 - remote-work
 - going-remote
 title: How to Remote - Part 1 of n...
+description: I just scribbled this down since I've been asked multiple times on how to be efficient when working from home.
 ---
 
 I just scribbled this down since I've been asked multiple times on how to be efficient when working from home. Here's some tips that will hopefully help you:

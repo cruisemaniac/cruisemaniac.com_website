@@ -2,7 +2,6 @@
 authors = ["Ashwin M"]
 date = 2020-06-22T05:15:00Z
 description = "Starting your cloud journey with the right provider makes for night and day in your cloud journey. Choose AWS!"
-draft = true
 hero = ""
 images = ["/images/1200px-amazon_web_services_logo-svg.png"]
 share = true
