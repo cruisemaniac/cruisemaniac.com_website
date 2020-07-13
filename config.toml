@@ -1,6 +1,6 @@
 # Site settings
 baseurl = "https://cruisemaniac.com/"
-languageCode = "id-ID"
+languageCode = "en-US"
 title = "cruisemaniac.com"
 
 #Set googleAnalytics ID
@@ -51,9 +51,9 @@ newerPosts = "Newer"
 olderPosts = "Older"
 
 # show latest posts in single page
+enableNewsletter = true
 readMore = ""
 showLatestPosts = false
-
 # Share
 enableShare = true
 share = ""

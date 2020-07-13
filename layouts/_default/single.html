@@ -40,6 +40,10 @@
                             {{ partial "share.html" . }}
                         {{ end }}
 
+                        {{ if .Site.Params.enableNewsletter }}
+                            {{ partial "newsletter-subscribe.html" }}
+                        {{ end }}
+
                         {{ if .Site.Params.enableDisqus }}
                             {{ partial "disqus.html" . }}
                         {{ end }}

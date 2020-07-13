@@ -1,7 +1,7 @@
 +++
 authors = ["Ashwin M"]
 date = 2020-06-28T17:30:00Z
-excerpt = "Getting on the Docker bandwagon is no longer an option - Its the way to go. How do you do it right for your Ruby on Rails app "
+description = "Getting on the Docker bandwagon is no longer an option - Its the way to go. How do you do it right for your Ruby on Rails app "
 hero = ""
 images = ["/images/1__uq2o1kma6dbi3_nnobvoa.png"]
 share = true
