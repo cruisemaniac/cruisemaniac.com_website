@@ -41,7 +41,7 @@ customJS = []
 # Navigation links
 about = ""
 home = ""
-now = ""
+# now = ""
 post = ""
 subscribe = ""
 tags = ""
