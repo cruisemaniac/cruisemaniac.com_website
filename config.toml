@@ -1,79 +1,45 @@
-# Site settings
 baseurl = "https://cruisemaniac.com/"
+googleAnalytics = ""
+hasCJKLanguage = false
 languageCode = "en-US"
 title = "cruisemaniac.com"
-
-#Set googleAnalytics ID
-googleAnalytics = ""
-# Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
-hasCJKLanguage = false
-
-[permalinks]
-posts = "/post/:title/"
-
 [params]
+about = ""
 author = "Ashwin M"
 bio = "Setting servers on fire for over a decade now!"
-description = "DevOps, Infra and Cloud Expert"
-
-twitter = "cruisemaniac"
-
-enableRSS = true
-enableToc = false
-
-disqusShortname = "" #disqus shortname here
-enableDisqus = false 
-
-enableSummary = true
-# Set the value to true if use description in post front matter replace content summary
-useDescriptionReplaceSummary = true
-
-enableGoogleAnalytics = false
-
-enableTwitterCard = true
-# The url for twitter card image, default is avatar.png in static/images directory
-twitterCardImage = "images/avatar.jpg"
-
-# Add custom assets with their paths relative to the static folder
-customCSS = ['css/custom.css']
-customJS = []
-
-# The variables below are optionally too and can be used to
-# translate or customize each string of the theme.
-
-# Navigation links
-about = ""
-home = ""
-# now = ""
-post = ""
-subscribe = "RSS"
-tags = ""
-
 copyright = ""
+customCSS = ["css/custom.css"]
+customJS = []
+description = "DevOps, Infra and Cloud Expert"
+disqusShortname = ""
+enableDisqus = false
+enableGoogleAnalytics = false
+enableNewsletter = true
+enableRSS = true
+enableShare = true
+enableSummary = true
+enableToc = false
+enableTwitterCard = true
+githubRepo = "cruisemaniac"
+home = ""
+iconFont = "font-awesome"
 newerPosts = "Newer"
 olderPosts = "Older"
-
-# show latest posts in single page
-enableNewsletter = true
+post = ""
 readMore = "Here's the latest scoop..."
-showLatestPosts = false
-# Share
-enableShare = true
 share = "Facebook"
-tweet = "Twitter"
-
-# 404 page
-subtitle404 = "You entered the wrong room my friend! Go back ?"
-title404 = "Oops! This is a 404."
-
-# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-iconFont = "font-awesome"
-# The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+showLatestPosts = false
 socialIconStyle = "rounded"
-
-githubRepo = "cruisemaniac"
-
-# Add additional social link entries underneath
+subscribe = "RSS"
+subtitle404 = "You entered the wrong room my friend! Go back ?"
+tags = ""
+title404 = "Oops! This is a 404."
+tweet = "Twitter"
+twitter = "cruisemaniac"
+twitterCardImage = "images/avatar.jpg"
+useDescriptionReplaceSummary = true
+[permalinks]
+posts = "/post/:title/"
 [social]
 github-square = "https://github.com/cruisemaniac"
 linkedin-square = "https://linkedin.com/in/ashwinmurali"
