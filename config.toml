@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://cruisemaniac.com/"
 languageCode = "id-ID"
-title = "cruisemaniac.com | Ashwin M"
+title = "cruisemaniac.com"
 
 #Set googleAnalytics ID
 googleAnalytics = ""
@@ -9,71 +9,69 @@ googleAnalytics = ""
 hasCJKLanguage = false
 
 [params]
-	author = "Ashwin M"
-	description = "Minimalist Blog Themes For Developer"
-	bio = "Setting servers on fire for a decade now!"
+author = "Ashwin M"
+bio = "Setting servers on fire for over a decade now!"
+description = "DevOps, Infra and Cloud Expert"
 
-	twitter = "cruisemaniac"
+twitter = "cruisemaniac"
 
-	enableRSS = true
-	enableToc = true
+enableRSS = true
+enableToc = true
 
-	enableDisqus = false
-	disqusShortname = "" #disqus shortname here
+disqusShortname = "" #disqus shortname here
+enableDisqus = false 
 
+enableSummary = true
+# Set the value to true if use description in post front matter replace content summary
+useDescriptionReplaceSummary = true
 
-	enableSummary = true
-	# Set the value to true if use description in post front matter replace content summary
-	useDescriptionReplaceSummary = true
+enableGoogleAnalytics = false
 
+enableTwitterCard = true
+# The url for twitter card image, default is avatar.png in static/images directory
+twitterCardImage = "images/avatar.jpg"
 
-	enableGoogleAnalytics = false
+# Add custom assets with their paths relative to the static folder
+customCSS = ['css/custom.css']
+customJS = []
 
-	enableTwitterCard = true
-	# The url for twitter card image, default is avatar.png in static/images directory
-	twitterCardImage = "images/avatar.jpg"
+# The variables below are optionally too and can be used to
+# translate or customize each string of the theme.
 
-	# Add custom assets with their paths relative to the static folder
-	customCSS = ['css/custom.css']
-	customJS  = []
+# Navigation links
+about = ""
+home = ""
+now = ""
+post = ""
+subscribe = ""
+tags = ""
 
-	# The variables below are optionally too and can be used to
-	# translate or customize each string of the theme.
+copyright = ""
+newerPosts = "Newer"
+olderPosts = "Older"
 
-	# Navigation links
-	home = ""
-	about = ""
-	now = ""
-	blog = ""
-	tags = ""
-	subscribe = ""
+# show latest posts in single page
+readMore = ""
+showLatestPosts = false
 
-	olderPosts = ""
-	newerPosts = ""
-	copyright = ""
+# Share
+enableShare = true
+share = ""
+tweet = ""
 
-	# show latest posts in single page
-	showLatestPosts = false
-	readMore = ""
+# 404 page
+subtitle404 = "You entered the wrong room my friend! Go back ?"
+title404 = "Oops! This is a 404."
 
-	# Share
-	enableShare = true
-	tweet = ""
-	share = ""
+# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+iconFont = "font-awesome"
+# The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+socialIconStyle = "rounded"
 
-	# 404 page
-	title404 = "Opps! This place is called 404."
-	subtitle404 = "You entered the wrong room my friend! Go back ?"
-
-	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-	iconFont = "font-awesome"
-    # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-    socialIconStyle = "rounded"
-
-	githubRepo = "cruisemaniac"
+githubRepo = "cruisemaniac"
 
 # Add additional social link entries underneath
 [social]
-	twitter-square = "https://twitter.com/cruisemaniac"
-	github-square = "https://github.com/cruisemaniac"
-	linkedin-square = "https://linkedin.com/in/ashwinmurali"
+github-square = "https://github.com/cruisemaniac"
+linkedin-square = "https://linkedin.com/in/ashwinmurali"
+twitter-square = "https://twitter.com/cruisemaniac"
