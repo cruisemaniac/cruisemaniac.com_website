@@ -55,7 +55,7 @@ olderPosts = "Older"
 
 # show latest posts in single page
 enableNewsletter = true
-readMore = ""
+readMore = "Here's the latest scoop..."
 showLatestPosts = false
 # Share
 enableShare = true

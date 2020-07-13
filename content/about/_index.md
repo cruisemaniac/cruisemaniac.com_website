@@ -2,7 +2,7 @@
 date = "2015-06-20T14:02:37+02:00"
 title = "About"
 
-description = "About page is a page to describe who I am."
+description = "About page is to describe who I am."
 hidden = true
 +++
 
@@ -14,7 +14,7 @@ I'd love to say hi!
 
 ## Work
 
-I currently working as a Lead Infra and Ops Engineer at **[Verloop](https://verloop.io)**. We make amazing Chat bots for customer support. I dabble with kubernetes on GCP here running systems build on golang, javascript and python.
+I currently worki as a Lead Infra and Ops Engineer at **[Verloop](https://verloop.io)**. We make amazing Chat bots for customer support. I dabble with kubernetes on GCP here running systems built on golang, javascript and python.
 
 ## Books
 
@@ -26,4 +26,4 @@ I hang out a lot around twitter and a few slack groups, the most notable being [
 
 ## Social Media
 
-I'm mostly not active on facebook. I am fairly active on twitter, you can access it at the bottom of this page, or you can view my github profile to see if there's any repo's I've starred that you might like. I've also got my linkedin profile down there so we can connect!
+I'm not active on facebook. I am fairly active on twitter, you can see the link to it at the bottom of this page, or you can view my github profile to see if there's any repo's I've starred that you might like. I've also got my linkedin profile down there so we can connect!

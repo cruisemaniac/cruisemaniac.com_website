@@ -125,8 +125,8 @@ h6 {
 
 #post-list a {
     color: #333;
-    display: block;
-    font: bolder 19px/1.7 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
+    
+    font: 16px 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
 }
 
 #post-list h2 {
@@ -141,7 +141,7 @@ h6 {
 }
 
 .welcome-description {
-    font-family: Georgia, serif;
+    font-family: 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
     color: #595959;
     margin-bottom: -20px;
 }
