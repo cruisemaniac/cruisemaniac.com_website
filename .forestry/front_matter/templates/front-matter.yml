@@ -33,3 +33,5 @@ fields:
     min: 
     max: 
   label: Tags
+pages:
+- content/posts/using-multi-stage-dockerfiles-to-speed-up-builds.md
