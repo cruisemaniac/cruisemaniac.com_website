@@ -1,0 +1,28 @@
+---
+label: Front Matter
+hide_body: false
+fields:
+- type: list
+  name: authors
+  label: authors
+- type: datetime
+  name: date
+  label: date
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: hero
+  label: hero
+- type: image_gallery
+  name: images
+  label: images
+- type: boolean
+  name: share
+  label: share
+- type: number
+  name: timeToRead
+  label: timeToRead
+- type: text
+  name: title
+  label: title
