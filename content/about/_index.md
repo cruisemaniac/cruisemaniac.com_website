@@ -14,7 +14,7 @@ I'd love to say hi!
 
 ## Work
 
-I currently worki as a Lead Infra and Ops Engineer at **[Verloop](https://verloop.io)**. We make amazing Chat bots for customer support. I dabble with kubernetes on GCP here running systems built on golang, javascript and python.
+I work as a Lead Infra and Ops Engineer at **[Verloop](https://verloop.io)**. We make amazing Chat bots for customer support. I dabble with kubernetes on GCP and Azure here running systems built on golang, javascript and python.
 
 ## Books
 
