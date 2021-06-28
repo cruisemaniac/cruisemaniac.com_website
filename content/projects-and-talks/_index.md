@@ -8,8 +8,6 @@ title = "Projects and Talks"
 +++
 I've been a fan of self hosting services to tackle my personal needs.
 
-I run a Non-logging, Ad blocking DNS / DNSCrypt resolver out of Bangalore. Click [here](https://qag.me) to get the details on how to start using it.
-
 I also love talking about tech in meetups and conferences. I've got some of them here:
 
 By far the largest Audience I've interacted with - A talk at AWS Community day Kochi on how we connected 10000 cars to the AWS cloud at Zoomcar.
