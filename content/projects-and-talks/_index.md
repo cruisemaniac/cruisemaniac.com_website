@@ -6,9 +6,7 @@ description = "A list of events I've spoken at.."
 title = "Projects and Talks"
 
 +++
-I've been a fan of self hosting services to tackle my personal needs.
-
-I also love talking about tech in meetups and conferences. I've got some of them here:
+I love talking about tech in meetups and conferences. I've got some of them here:
 
 By far the largest Audience I've interacted with - A talk at AWS Community day Kochi on how we connected 10000 cars to the AWS cloud at Zoomcar.
 
