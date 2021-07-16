@@ -21,3 +21,35 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image"}
       - { label: "Tags", name: "tags", widget: "list"}
       - { label: "Description", name: "description", widget: "string"}
+  - name: "about-me"
+    label: "About Page"
+    folder: "content/about"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Hidden", name: "hidden", widget: "boolean"}
+      - { label: "Description", name: "description", widget: "string"}
+  - name: "projects-and-talks"
+    label: "Projects And Talks"
+    folder: "content/projects-and-talks"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Hidden", name: "hidden", widget: "boolean"}
+      - { label: "Description", name: "description", widget: "string"}
+  - name: "other-pages"
+    label: "Other Pages"
+    create: true
+    folder: "content/pages"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Featured Image", name: "image", widget: "image"}
+      - { label: "Tags", name: "tags", widget: "list"}
+      - { label: "Description", name: "description", widget: "string"}
+
