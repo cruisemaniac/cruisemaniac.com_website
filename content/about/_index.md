@@ -1,11 +1,9 @@
-+++
-date = "2015-06-20T14:02:37+02:00"
-title = "About"
-
-description = "About page is to describe who I am."
-hidden = true
-+++
-
+---
+title: About
+date: 2015-06-20T14:02:37+02:00
+hidden: true
+description: About page is to describe who I am.
+---
 ## Hi there!
 
 My Name is Ashwin, known around the internet as cruisemaniac. I am a DevOps, Infra and Cloud engineering leader who likes to help people build, migrate and get going with their technology solutions on major cloud providers like AWS, Azure and GCP. I love working with tech - I run my own DNS and email servers.
@@ -22,7 +20,7 @@ I'm currently shuttling between [The Manager's Path](https://amazon.in/dp/B06XP3
 
 ## Community
 
-I hang out a lot around twitter and a few slack groups, the most notable being [Remote Indians](https://remoteindian.com/) and [Devs and Hackers](http://devup.in/).
+I hang out a lot around twitter and a few slack groups, the most notable being [Remote Indians](https://remoteindian.com/). Its an awesome community and you should join in!
 
 I'm running a Masterclass to help Engineering teams scale up on Serverless tech with AWS Fargate. Check out and sign up for my [Fargate Masterclass](https://fargate.cruisemaniac.com). 
 
