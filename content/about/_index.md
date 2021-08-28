@@ -3,6 +3,7 @@ title: About
 date: 2015-06-20T14:02:37+02:00
 hidden: true
 description: About page is to describe who I am.
+rss_ignore: true
 ---
 ## Hi there!
 
