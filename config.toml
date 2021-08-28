@@ -27,6 +27,7 @@ newerPosts = "Newer"
 olderPosts = "Older"
 post = ""
 readMore = "Here's the latest scoop..."
+rssLimit = 25
 share = "Facebook"
 showLatestPosts = false
 socialIconStyle = "rounded"
