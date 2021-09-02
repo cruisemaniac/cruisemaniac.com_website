@@ -13,7 +13,7 @@ I'd love to say hi!
 
 ## Work
 
-I work as an Infrastructure and cloud consultant helping startups scale from the first 1000 to the first million users!
+I'm the Director of Engineering at [CoLearn](https://colearn.id), an amazing ed-tech startup tackling education for Indonesia. I help build and enable engineering teams, scale infra and deliver awesome tech for over 4.5 million school students!
 
 ## Books
 
@@ -23,7 +23,7 @@ I'm currently shuttling between [The Manager's Path](https://amazon.in/dp/B06XP3
 
 I hang out a lot around twitter and a few slack groups, the most notable being [Remote Indians](https://remoteindian.com/). Its an awesome community and you should join in!
 
-I'm running a Masterclass to help Engineering teams scale up on Serverless tech with AWS Fargate. Check out and sign up for my [Fargate Masterclass](https://fargate.cruisemaniac.com). 
+I'm running a Masterclass to help Engineering teams scale up on Serverless tech with AWS Fargate. Check out and sign up for my [Fargate Masterclass](https://fargate.cruisemaniac.com).
 
 ## Social Media
 
