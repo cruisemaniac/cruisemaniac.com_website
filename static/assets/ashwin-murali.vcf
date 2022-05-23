@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Ashwin Murali
+N;CHARSET=UTF-8:Murali;Ashwin;;;
+NICKNAME;CHARSET=UTF-8:cruisemaniac
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:me@cruisemaniac.dev
+TEL;TYPE=CELL:+971 50 565 9644
+TITLE;CHARSET=UTF-8:Director of Engineering
+ORG;CHARSET=UTF-8:CoLearn
+URL;type=WORK;CHARSET=UTF-8:https://colearn.id
+X-SOCIALPROFILE;TYPE=twitter:https://twitter.com/cruisemaniac
+X-SOCIALPROFILE;TYPE=linkedin:https://linkedin.com/in/ashwinmurali
+REV:2022-05-23T18:58:20.590Z
+END:VCARD
