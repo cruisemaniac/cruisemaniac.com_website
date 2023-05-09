@@ -13,7 +13,7 @@ I'd love to say hi!
 
 ## Work
 
-I'm the Director of Engineering at [CoLearn](https://colearn.id), an amazing ed-tech startup tackling education for Indonesia. I help build and enable engineering teams, scale infra and deliver awesome tech for over 4.5 million school students!
+I work as a Senior DevOps engineer with the Autonomous Robotics Research Center at the [Technology Innovation Institute](https://tii.ae).
 
 ## Books
 
