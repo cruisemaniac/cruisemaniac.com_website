@@ -23,7 +23,9 @@ I'm currently shuttling between [The Manager's Path](https://amazon.in/dp/B06XP3
 
 I hang out a lot around twitter and a few slack groups, the most notable being [Remote Indians](https://remoteindian.com/). Its an awesome community and you should join in!
 
-I'm running a Masterclass to help Engineering teams scale up on Serverless tech with AWS Fargate. Check out and sign up for my [Fargate Masterclass](https://fargate.cruisemaniac.com).
+I run a Masterclass to help Engineering teams scale up on Serverless tech with AWS Fargate. Check out and sign up for my [Fargate Masterclass](https://fargate.cruisemaniac.com).
+
+I'm an [AWS Community builder](https://aws.amazon.com/developer/community/community-builders/?intClick=dev-center-2021_main) for the Containers category.
 
 ## Social Media
 
