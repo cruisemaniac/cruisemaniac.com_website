@@ -6,7 +6,7 @@ title = "cruisemaniac.com"
 [params]
 about = ""
 author = "Ashwin M"
-bio = "Setting servers on fire for over a decade now!"
+bio = "Putting out server on fires for nearly two decades now!"
 copyright = ""
 customCSS = ["css/custom.css"]
 customJS = []
@@ -14,7 +14,7 @@ description = "DevOps, Infra and Cloud Expert"
 disqusShortname = ""
 enableDisqus = false
 enableGoogleAnalytics = false
-enableNewsletter = true
+enableNewsletter = false
 enableRSS = true
 enableShare = false
 enableSummary = true
