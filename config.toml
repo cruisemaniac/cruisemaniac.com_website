@@ -6,7 +6,7 @@ title = "cruisemaniac.com"
 [params]
 about = ""
 author = "Ashwin M"
-bio = "Putting out server on fires for nearly two decades now!"
+bio = "Putting out server fires for nearly two decades now!"
 copyright = ""
 customCSS = ["css/custom.css"]
 customJS = []
