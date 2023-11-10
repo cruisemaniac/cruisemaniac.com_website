@@ -1,11 +1,11 @@
-+++
+---
 aliases = ["projects-and-talks"]
 author = "Ashwin M"
 date = 2020-06-14T00:00:00Z
 description = "A list of events I've spoken at.."
 title = "Projects and Talks"
 rss_ignore = true
-+++
+---
 I love talking about tech in meetups and conferences. I've got some of them here:
 
 By far the largest Audience I've interacted with - A talk at AWS Community day Kochi on how we connected 10000 cars to the AWS cloud at Zoomcar.
