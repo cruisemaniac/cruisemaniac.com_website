@@ -1,10 +1,11 @@
 ---
-aliases = ["projects-and-talks"]
-author = "Ashwin M"
-date = 2020-06-14T00:00:00Z
-description = "A list of events I've spoken at.."
-title = "Projects and Talks"
-rss_ignore = true
+author: "Ashwin M"
+date: 2020-06-14T00:00:00Z
+description: "A list of events I've spoken at.."
+title: "Projects and Talks"
+rss_ignore: true
+aliases: "projects-and-talks"
+layout: "single"
 ---
 I love talking about tech in meetups and conferences. I've got some of them here:
 

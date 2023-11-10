@@ -1,64 +1,90 @@
-{{ partial "head.html" . }}
-    <body>
-         <div id="page-container">
-             <section id="page-wrap">
-                {{ partial "nav.html" . }}
-                    <section id="wrapper" class="post">
-                        <article>
-                            <header>
-                                <h1>
-                                    {{ .Title }}
-                                </h1>
-                                <h2 class="headline">
-                                {{ .Date.Format "Jan 2, 2006 15:04" }}
-                                · {{ if lt 1 .WordCount }}{{ .WordCount }} words{{ else }}{{ .WordCount }} word{{ end }}
-                                · {{ .ReadingTime }} minute read
-                                <span class="tags">
-                                {{ with .Params.tags }}
-                                | {{ if ge (len .) 1 }}
-                                    {{ range . }}
-                                        <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a> |
-                                    {{ end }}
-                                {{ end }}
-                                {{ end}}
-                                </span>
-                                </h2>
-                            </header>
-                            {{ if .Site.Params.enableToc }}
-                            {{ if .TableOfContents }}
-                                <div id="toc">
-                                {{ .TableOfContents }}
-                                </div>
-                            {{ end }}
-                            {{ end }}
-                            <section id="post-body">
-                                {{ .Content }}
-                            </section>
-                        </article>
+{{ define "main" }}
 
-                        {{ if .Site.Params.enableShare }}
-                            {{ partial "share.html" . }}
-                        {{ end }}
+<section class="blog-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 order-2 order-lg-1">
+        {{ if .Params.share }}
+        <div class="share-now">
+          <a href="#" class="scrol">Share</a>
+          <div class="sociel-icon">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.twitter.com/intent/tweet?url={{ .Permalink }}" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/cws/share?url={{ .Permalink }}" target="_blank">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      <div class="col-lg-10 order-1 order-lg-2">
+        <article class="single-blog">
+          <div class="blog-post-tag">
+          {{ with .Params.tags }}
+            {{ if ge (len .) 1 }}
+              {{ range . }}
+                <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a>
+              {{ end }}
+            {{ end }}
+          {{ end}}
+          </div>
+          <p class="title">{{ .Title }}</p>
+          <ul class="meta">
+            <li>
+              By <a href={{ "about" | absURL }}>{{ $.Site.Params.author }}</a>
+            </li>
+            <li>
+              <i class="fa fa-clock-o"></i>
+              {{ .PublishDate.Format "January 2, 2006" }} - {{ .ReadingTime }} min read
+            </li>
+          </ul>
+          {{ if isset .Params "featureImage" }}
+          <div class="feature-image">
+            <img src="{{ .Params.featureImage  | absURL }}" alt="banner">
+          </div>
+          {{ end }}
+          <div class="single-blog-content">
+            {{ .Content }}
+          </div>
 
-                        {{ if .Site.Params.enableNewsletter }}
-                            {{ partial "newsletter-subscribe.html" }}
-                        {{ end }}
+        </article>
+        <div class="blog-single-presentation">
+          <ul>
+            {{ with .Site.RegularPages.Prev . }}
+            <li> <a href="{{.RelPermalink}}" class="tag">PREVIOUS</a>
+              <a href="{{.RelPermalink}}" class="title">
+                {{ .Title }}
+              </a>
+              <i class="fa fa-clock-o"></i>
+              {{ .PublishDate.Format "January 2, 2006" }} - {{ .ReadingTime }}
+            </li>
+            {{ end }}
+            {{ with .Site.RegularPages.Next . }}
+            <li> <a href="{{.RelPermalink}}" class="tag">Next</a>
+              <a href="{{.RelPermalink}}" class="title">
+                {{ .Title }}
+              </a>
+              <i class="fa fa-clock-o"></i>
+              {{ .PublishDate.Format "January 2, 2006" }} - {{ .ReadingTime }}
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-                        {{ if .Site.Params.enableDisqus }}
-                            {{ partial "disqus.html" . }}
-                        {{ end }}
-
-                        {{ if .Site.Params.showLatestPosts }}
-                            {{ partial "latest-posts.html" . }}
-                        {{ end }}
-                    </section>
-                </section>
-            {{ partial "footer.html" . }}
-            </div>
-        {{ partial "js.html" . }}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
-        <script>
-            hljs.initHighlightingOnLoad();
-        </script>
-    </body>
-</html>
+{{ end }}

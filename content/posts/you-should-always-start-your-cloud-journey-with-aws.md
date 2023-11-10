@@ -1,12 +1,12 @@
 ---
-authors = ["Ashwin M"]
-date = 2020-06-22T05:15:00Z
-description = "Starting your cloud journey with the right provider makes for night and day in your cloud journey. Choose AWS!"
-hero = ""
-images = ["/images/1200px-amazon_web_services_logo-svg.png"]
-share = true
-timeToRead = 0
-title = "You should Always start your cloud journey with AWS"
+authors: ["Ashwin M"]
+date: 2020-06-22T05:15:00Z
+description: "Starting your cloud journey with the right provider makes for night and day in your cloud journey. Choose AWS!"
+hero: ""
+thumbnail: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+share: true
+title: "You should Always start your cloud journey with AWS"
+tags: ["aws", "cloud", "vpc", "compute"]
 
 ---
 There are a ton of cloud providers around town. Starting from the mom and pop shops, to co-located Data center providers to full blown cloud infra providers. For a beginner, there's absolutely no shortage of options to start off with. In fact, it will overwhelm a beginner to the point of confusion and frustration.

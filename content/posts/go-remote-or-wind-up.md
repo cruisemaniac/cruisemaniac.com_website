@@ -6,6 +6,7 @@ tags:
 - going-remote
 title: Go Remote or Wind up!
 description: "For every single organization looking to hire for the best employees out there, here's just 2 words: Go Remote!"
+thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Aloneness_or_Loneliness%3F_%283033873597%29.jpg/640px-Aloneness_or_Loneliness%3F_%283033873597%29.jpg"
 ---
 
 The whole #covid19 pandemic is an amazing opportunity to gear up for the next level.

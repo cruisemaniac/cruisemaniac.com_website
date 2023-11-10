@@ -1,13 +1,14 @@
 ---
-authors = ["Ashwin M"]
-date = 2020-06-28T17:30:00Z
-description = "Getting on the Docker bandwagon is no longer an option - Its the way to go. How do you do it right for your Ruby on Rails app "
-hero = ""
-images = ["/images/1__uq2o1kma6dbi3_nnobvoa.png"]
-share = true
-tags = ["rails", "docker", "containerisation", "cloud"]
-timeToRead = 0
-title = "Dockerizing your rails app - Only the gotchas!"
+authors: ["Ashwin M"]
+date: 2020-06-28T17:30:00Z
+description: "Getting on the Docker bandwagon is no longer an option - Its the way to go. How do you do it right for your Ruby on Rails app "
+hero: ""
+thumbnail: "/images/blog/rubyonrails.jpg"
+share: true
+trending: true
+tags: ["rails", "docker", "containerisation", "cloud"]
+
+title: "Dockerizing your rails app - Only the gotchas!"
 
 ---
 Containerisation is all the rage these days with every cloud provider offering some way or the other to deploy and manage containers. Running your Ruby on Rails application on a containerised platform will let you not only save, it also lets you get your changes faster to your end users. Are you doing it right or missing the obvious??? <!--more-->
