@@ -1,4 +1,4 @@
-baseURL = "http://cruisemaniac.com/"
+baseURL = "https://cruisemaniac.com/"
 languageCode = "en-us"
 paginate = 6
 summarylength = 10
