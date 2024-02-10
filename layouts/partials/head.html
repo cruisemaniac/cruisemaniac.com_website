@@ -9,6 +9,13 @@
   <meta name="author" content="{{ . }}">
   {{ end }}
   {{ hugo.Generator }}
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+
+  {{ with .OutputFormats.Get "rss" -}}
+  {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+  {{ end }}
+
 
   <link rel="stylesheet" href={{ "plugins/font-awesome/css/font-awesome.min.css" | absURL }} />
   {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify}}

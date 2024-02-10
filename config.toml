@@ -24,8 +24,9 @@ theme = "blogge-hugo-theme"
     weight= 3
 [params]
   summarylength = 80
+  description = 'Personal Blog of Ashwin Murali a.k.a. cruisemaniac'
   logo = "images/logo.png"
-  author = "Ashwin"
+  author = "Ashwin M"
   authorThumb = "images/ashwin.jpg"
   authorAddress = "Abu Dhabi, UAE"
   authorPhone = "+971505659644"
@@ -41,6 +42,7 @@ theme = "blogge-hugo-theme"
   # We're using formspree.io for form handling, paste your formspree url below
   fabformURL  = "9AJk8ro"
   googleMapAPI = "AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0"
-
+  [params.social]
+    twitter = 'cruisemaniac'
 [taxonomies]
   tag = "tags"
