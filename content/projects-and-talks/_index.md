@@ -7,7 +7,12 @@ rss_ignore: true
 aliases: "projects-and-talks"
 layout: "single"
 ---
+
 I love talking about tech in meetups and conferences. I've got some of them here:
+
+My "boring" talk at AWS Kochi In Dec, 2023 about building Engineering Velocity using DevOps.
+
+{{< youtube kFcaLd3O1Gg >}}
 
 By far the largest Audience I've interacted with - A talk at AWS Community day Kochi on how we connected 10000 cars to the AWS cloud at Zoomcar.
 

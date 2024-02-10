@@ -21,7 +21,11 @@ theme = "blogge-hugo-theme"
   [[menu.main]]
     name = "Projects & Talks"
     url= "projects-and-talks"
-    weight= 3
+    weight= 4
+  [[menu.main]]
+    name = "My Clicks"
+    url= "https://clicks.cruisemaniac.com"
+    weight= 5
 [params]
   summarylength = 80
   description = 'Personal Blog of Ashwin Murali a.k.a. cruisemaniac'
