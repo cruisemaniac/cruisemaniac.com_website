@@ -12,3 +12,4 @@ $RECYCLE.BIN/
 # OSX
 .DS_Store
 .hugo_build.lock
+node_modules/
