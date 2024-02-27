@@ -10,6 +10,10 @@ layout: "single"
 
 I love talking about tech in meetups and conferences. I've got some of them here:
 
+I conducted a level 100 Workshop for the AWS Usergroup in Dubai. Slides from the workshop are here:
+
+{{<speakerdeck ea1579523ce740b29f293564d19cad3b>}}
+
 My "boring" talk at AWS Kochi In Dec, 2023 about building Engineering Velocity using DevOps.
 
 {{< youtube kFcaLd3O1Gg >}}
