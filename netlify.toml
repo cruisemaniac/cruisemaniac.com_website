@@ -4,3 +4,8 @@
 [build]
   publish = "public"
   command = "hugo --gc --minify && npx purgecss -c ./postcss.config.js"
+
+[[redirects]]
+from = "/post/*"
+to = "/posts/:splat"
+status = 301
