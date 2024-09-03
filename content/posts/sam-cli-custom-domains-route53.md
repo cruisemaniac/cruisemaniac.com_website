@@ -27,7 +27,7 @@ Parameters:
     Type: String
     Description: Custom domain name for API Gateway
 
-ZoneId:
+  ZoneId:
     Type: String
     Description: Route53 Zone ID for the domain name
 
